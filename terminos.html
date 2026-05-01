@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EuroDrive Import | Términos de Servicio</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body data-theme="dark">
+
+    <header class="site-header" id="header">
+        <div class="header-container header-top">
+            <a class="nav-logo" href="index.html">
+                <img src="logoOscuro.png" alt="EuroDrive logo" class="logo-img-small logo-dark-theme" />
+                <img src="logoClaro.png" alt="EuroDrive logo" class="logo-img-small logo-light-theme" />
+            </a>
+            <div class="header-animation-container">
+                <svg viewBox="0 0 800 100" preserveAspectRatio="none" class="wavy-svg-elite">
+                    <path class="elite-path path-p" d="M-100,50 C200,-20 300,120 900,50" />
+                    <path class="elite-path path-o" d="M-100,60 C150,110 450,-10 900,60" />
+                    <path class="elite-path path-g" d="M-100,40 C300,90 500,10 900,40" />
+                    <path class="elite-path path-b" d="M-100,70 C250,-10 550,110 900,70" />
+                    <path class="elite-path path-r" d="M-100,30 C350,120 650,-20 900,30" />
+                </svg>
+            </div>
+            <div class="controls">
+                <div class="custom-lang-selector" id="langSelectorWrapper">
+                    <div class="lang-selected" id="langSelected">
+                        <img src="https://flagcdn.com/w40/es.png" alt="ES" class="flag-icon" id="currentFlag">
+                    </div>
+                    <ul class="lang-options" id="langOptions">
+                        <li data-value="es"><img src="https://flagcdn.com/w40/es.png" alt="ES" class="flag-icon"></li>
+                        <li data-value="en"><img src="https://flagcdn.com/w40/gb.png" alt="EN" class="flag-icon"></li>
+                        <li data-value="fr"><img src="https://flagcdn.com/w40/fr.png" alt="FR" class="flag-icon"></li>
+                        <li data-value="de"><img src="https://flagcdn.com/w40/de.png" alt="DE" class="flag-icon"></li>
+                    </ul>
+                </div>
+                <button class="theme-toggle" type="button" aria-label="Cambiar tema" title="Cambiar tema">✨</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="legal-section" style="padding: 120px 0 80px;">
+            <div class="container">
+                <div class="form-panel" style="max-width: 900px; margin: 0 auto; padding: 60px;">
+                    <h1 data-aos="fade-down" data-i18n="legalTerminosTitle">Términos de Servicio</h1>
+                    <div class="legal-text" data-aos="fade-up" data-aos-delay="200" data-i18n="legalTerminosContent" style="margin-top: 40px; color: var(--text-muted); line-height: 1.8;">
+                        <!-- Content will be injected by script.js -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a class="nav-logo" href="index.html" style="margin-bottom: 20px;">
+                    <img src="logoOscuro.png" alt="EuroDrive logo" class="logo-img-small logo-dark-theme" />
+                    <img src="logoClaro.png" alt="EuroDrive logo" class="logo-img-small logo-light-theme" />
+                </a>
+                <p data-i18n="footerPartner">Tu partner de confianza para subir el nivel de tu garaje con importaciones de élite.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footerNav">Navegación</h4>
+                <a href="index.html" data-i18n="navInicio">Inicio</a>
+                <a href="index.html#proceso" data-i18n="navProceso">El Proceso</a>
+                <a href="formulario.html" data-i18n="navSolicitud">Solicitud</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footerContact">Contacto Directo</h4>
+                <a href="tel:+34633673494">📞 +34 633 673 494</a>
+                <a href="mailto:eurodrive.import09@gmail.com">✉️ eurodrive.import09@gmail.com</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="footerLegal">Legal</h4>
+                <a href="aviso-legal.html" data-i18n="legalAviso">Aviso Legal</a>
+                <a href="privacidad.html" data-i18n="legalPrivacidad">Política de Privacidad</a>
+                <a href="terminos.html" data-i18n="legalTerminos">Términos de Servicio</a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p id="footer-text" data-i18n="footerRights">© 2026 EuroDrive Import. Exclusividad y Profesionalidad.</p>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
